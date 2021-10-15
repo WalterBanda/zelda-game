@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    /* Theme Colors */
+    --bd-border: black;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 0.2fr 1fr;
+    /* grid-template-columns: max-content; */
+    place-content: center;
+}
+.game_header {
+    display: grid;
+    grid-template-columns: 1fr 0.1fr;
+
+    /* Text  */
+}
+.game_canvas {
+    /* Theme */
+    border: 1rem solid var(--bd-border);
+    border-radius: 1.2rem;
+}
