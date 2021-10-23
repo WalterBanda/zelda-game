@@ -202,6 +202,11 @@ scene("game", ({level, score}) => {
 
 scene("lose", ({score}) => {
     add([text(score, 30), origin("center"), pos(width() / 2, height() / 2)]);
+    add([text("You Lost", 32), origin("center"), pos(width() / 2, height() / 2.4)]);
+    setTimeout(()=>{
+        location.reload();
+        return false
+    },1500)
 });
 
 start("game", {level: 0, score: 0});
