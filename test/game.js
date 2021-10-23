@@ -15,7 +15,7 @@ const SKELETOR_SPEED = 60;
 
 // Game Logic
 // loadRoot('https://i.imgur.com/')
-loadRoot("/images/");
+loadRoot("/res/sprites/");
 loadSprite("link-going-left", "1Xq9biB.png");
 loadSprite("link-going-right", "yZIb8O2.png");
 loadSprite("link-going-down", "tVtlP6y.png");
