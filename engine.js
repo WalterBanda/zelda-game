@@ -13,7 +13,7 @@ const SLICER_SPEED = 100;
 const SKELETOR_SPEED = 60;
 
 // Sprites 🦓 & Scene 🍙 Loading...
-loadRoot("/res/sprites/");
+loadRoot("res/sprites/");
 loadSprite("link-going-left", "1Xq9biB.png");
 loadSprite("link-going-right", "yZIb8O2.png");
 loadSprite("link-going-down", "tVtlP6y.png");
