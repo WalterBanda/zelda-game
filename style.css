@@ -32,23 +32,30 @@ body {
     align-items: center;
     justify-content: space-around;
     background-color: rgb(250, 235, 215);
+    overflow: hidden;
 }
 
 h1 {
-    font-size: 1.5rem;
-    color: rgb(81, 139, 60)
+    font-size: 1.8rem;
+    color: rgb(81, 139, 60);
+    text-align: center;
 }
 
-h2,
+h2{
+    font-size: 1.2rem;
+}
 span {
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: bold;
 }
 
 .game_header {
     width: 80%;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 4fr 0.2fr;
+    gap: 5rem;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
 }
 
 .game_body {
@@ -67,7 +74,7 @@ span {
     max-width: 80%;
 }
 
-.game_details > img {
+.sprite {
     width: 1.2rem;
 }
 
